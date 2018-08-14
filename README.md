@@ -23,7 +23,7 @@ node server
 6. [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 7. [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-
+# อ่านเพิ่มเติม
 * ตัวอย่างการ import component ลูก มาแปะที่พ่อแม่ (parent) ดูได้จาก testComponent.js
 * ตัวอย่างการส่งค่าจากพ่อแม่ไปยังลูก ดูได้จากการส่งค่าจาก testComponent.js ไปยัง header.js (เราจะส่งผ่าน props)
 * การแก้ไขค่าของ state เราจะกระทำผ่าน this.setState เพราะถ้าไม่ทำผ่านตัวนี้ ถึงแม้ข้อมูลจะเปลี่ยนจริง แต่หน้าเว็บจะไม่รู้ว่าข้อมูลเปลี่ยน แล้วก็จะไม่ render หน้าเว็บใหม่ ทำให้ข้อมูลบนหน้าเว็บไม่เปลี่ยนแปลงให้เห็น (ถึงแม้ค่าข้อมูลเปลี่ยนไปแล้วก็เถอะนะ :( ) [component ใดๆ จะส่งค่าหรือเปลีย่นแปลงค่าในตัวเอง จะทำผ่าน state นะ รู้ป่าว]
